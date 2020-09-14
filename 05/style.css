@@ -27,7 +27,7 @@ img {
 /* English : Replace the dots below by a selector targeting the second image of the page. Do not use a class or an id! */
 /* Français : Remplace les points ci-dessous par un sélecteur ciblant la seconde image de la page. N'utilise pas de classe ou d'id ! */
 
-img:nth-of-type(even) {
+img:nth-child(3) {
     filter: grayscale(100%);     /*English : Replace with a property that makes the image look black & white. */
                 /* Français : Remplace par une propriété faisant paraître l'image en noir et blanc. */
 }
